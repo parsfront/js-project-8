@@ -43,3 +43,17 @@ header h2 {
     color: white;
     cursor: pointer;
 }
+.gallery-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+.gallery-info a {
+    text-decoration: none;
+    color: gray;
+}
+.gallery-info a:hover {
+    color: rgb(74, 68, 131);
+    transition: all 0.5s ease;
+}
